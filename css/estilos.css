@@ -1,0 +1,28 @@
+html,body{
+	height:100%;
+}
+body{
+	background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+}
+h1{
+	color:darkgreen;
+	text-align:center;
+	font-family: 'Lacquer', sans-serif;
+	letter-spacing: 0.1em;
+	text-shadow:0 0 0.5em # black;
+
+}
+.galeria{
+
+	display:flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter:grayscale(1);
+}
+
+.galeria div:hover{
+	filter: grayscale(0);
+}
